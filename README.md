@@ -26,5 +26,5 @@ In this section, all university professors and assistant professors contacting d
  In this section, anyone can put his book which he or she is willing to share or sell and the one who want book can contact with the sharer or seller. 
 
 8.	Cab sharing contact details
-In this section, anyone who is going outside the campus and booking a cab can put his ride details so that others who also want to go can contact the person.
+In this section, anyone who is going outside the campus and booking a cab can put his ride details so that others who also want to go can contact the person..
 
