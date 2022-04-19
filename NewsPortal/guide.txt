@@ -1,0 +1,4 @@
+//function which describes the use of strtotime
+$date = '25/05/2010';
+$date = str_replace('/', '-', $date);
+echo date('Y-m-d', strtotime($date));
