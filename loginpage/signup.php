@@ -1,5 +1,9 @@
 <?php  
+<<<<<<< Updated upstream
 $servername ="localhost";
+=======
+$servername ="127.0.0.1:3307";
+>>>>>>> Stashed changes
 $username = "root";
 $password = "root";
 $dbname = "login";
