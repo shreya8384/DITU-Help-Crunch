@@ -11,8 +11,8 @@ if($conn->connect_error){
 	die("connection failed");
 }
 
-$email = $_POST["email"];
-$password = $_POST["password"];
+$email = $_POST['email'];
+$password = $_POST['password'];
 $salt = "ditu-help-crunch";
 $password_encrypted = sha1($password.$salt);
 
@@ -24,8 +24,11 @@ $row = mysqli_fetch_array($sql);
 
 if($row["total"] > 0){
 	?>
+
+	 
 	<script>
-		alert('Login successful');
+			window.location.href="../index.html";
+		//window.location.href = "C:\xampp\htdocs\DITU-HELP-CRUNCH\index.html";
 	</script>
 	
 	<?php

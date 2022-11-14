@@ -1,9 +1,7 @@
 <?php  
-<<<<<<< Updated upstream
-$servername ="localhost";
-=======
+
 $servername ="127.0.0.1:3307";
->>>>>>> Stashed changes
+ 
 $username = "root";
 $password = "root";
 $dbname = "login";
@@ -14,9 +12,9 @@ if(isset($_POST['submit'])){
     if($conn->connect_error){
         die("connection failed");
     }    
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $password = $_POST["password"];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
     $salt = "ditu-help-crunch";
     $password_encrypted = sha1($password.$salt);
     
@@ -26,8 +24,10 @@ if(isset($_POST['submit'])){
     
     if($run){
         ?>
+        
         <script>
             alert('Values have been inserted');
+            window.location.href = "./signin.php";
         </script>
         <?php
     }
