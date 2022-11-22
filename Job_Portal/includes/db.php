@@ -4,5 +4,5 @@ $username = "root";
 $password = "root";
 session_start();
 // Create connection
-$db = new mysqli($servername, $username, $password,'newsp');
+$db = new mysqli($servername, $username, $password,'jobs');
 ?>
