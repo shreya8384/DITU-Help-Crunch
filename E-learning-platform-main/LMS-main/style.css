@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	background-image: url("images/bg.jpg");
+}
+
+.mainbtn{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+
+.modal-header h2{
+
+	color: #fff;
+	font-size: 32px;
+
+}
+
+.logsection{
+
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.logform{
+
+	text-align: center;
+}
+
+/*
+.logform{
+	 align-items: center;
+}
+*/
+.logform h2{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+	background-color: #1f1f2e;
+	
+	color: #fff;
+
+}
+
+.require{
+
+	color: red;
+
+}
+
+.logform label{
+
+	color: #dfdfdf;
+
+}
+
+  .logform form input{
+   padding:20px;
+   border:none;
+   border-radius: 5px;
+   border-width: 2px;
+   height: 5px;
+   width:70%;
+   display: inline-block;
+   background-color: rgb(243, 241, 241);
+
+    }
+#submits{
+    color: rgb(243, 241, 241);
+	border: 2px solid rgb(243, 241, 241);
+	background: #024759;
+	border-radius: 8px;
+    padding :8px;
+    width:70%;
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+
+#submits:hover{
+
+	color: #024759;
+	background: #c63939;
+	border: 2px solid #c63939;
+
+}
+.logform a{
+
+	text-align: center;
+}
+
+
+.form-register{
+
+	padding: 50px;
+	background-image: linear-gradient(#c63939, #024759);
+}
+.form-register h2{
+
+	padding-bottom: 90px;
+
+	text-align: center;
+	color: #dfdfdf;
+}
+
+
+.form label{
+
+	color: #dfdfdf;
+}
+.form span{
+
+	color: #dfdfdf;
+	margin-left: 5px;
+	font-size: 14px;
+}
+.required{
+
+	color: #F5B041 !important;
+}
+.form input[type="text"], input[type="date"], input[type="email"], input[type="password"]{
+	padding:10px;
+	border:none;
+	border-radius: 8px;
+	border-width: 2px;
+	height: 10%;
+	width:70%;
+	background-color: rgb(243, 241, 241);
+}
+.form input[type="file"]{
+
+	color: #dfdfdf;
+
+}
+
+.form input[type="submit"]{
+
+	width: 30%;
+	height: 10%;
+	margin-top: 65px;
+	border-radius: 8px;
+	background: #024759;
+	color: rgb(243, 241, 241);
+	border: 2px solid rgb(243, 241, 241);
+	font-weight: bold;
+}
+.form input[type="submit"]:hover{
+
+	color: #024759;
+	background: #c63939;
+	border: 2px solid #c63939;
+}
