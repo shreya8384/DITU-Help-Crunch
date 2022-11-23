@@ -81,6 +81,7 @@ require('includes/function.php');
 
 
 
+
                   
                   <p class="card-text"><?=$post['content']?> </p>
                 
@@ -89,6 +90,8 @@ require('includes/function.php');
             
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Comment  on this</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply</button>
 
                 </div>
               </div>
@@ -139,7 +142,7 @@ require('includes/function.php');
                     <a href="post.php?id=<?=$rpost['id']?>" style="text-decoration: none;color:black">
                     <div class="card mb-3" style="max-width: 700px;">
                     <div class="row g-0">
-                      <div class="col-md-5" style="background-image:url(images/11.png);  background-size: cover">
+                      <div class="col-md-5" style="background-image:url(images/4.png);  background-size: cover">
                          
                       </div>
                       <div class="col-md-7">

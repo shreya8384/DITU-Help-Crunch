@@ -48,7 +48,7 @@ app.post("/users/register", async (req, res) => {
       const saveUser =new saveUser(username,email,password);
       const saved= await saveUser.save();
       //const registered = await registerUser.save();
-      res.status(201).render("login");
+      res.status(201).render("http://localhost/DITU-HELP-CRUNCH/");
 
   }
   catch (e) {

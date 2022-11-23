@@ -25,6 +25,7 @@ $result=($page-1)*$post_per_page;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/dit_icon.jpg" rel="icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>DITU HELP CRUCH</title>
 </head>
@@ -51,7 +52,7 @@ $result=($page-1)*$post_per_page;
            <div class="card mb-3" style="max-width: 800px;">
            <a href="post.php?id=<?=$post['id']?>" style="text-decoration:none;color:black">
             <div class="row g-0">
-              <div class="col-md-5" style="background-image:url(images/11.png);  background-size: cover">
+              <div class="col-md-5" style="background-image:url(images/4.png);  background-size: cover">
                 
               </div>
               <div class="col-md-7">
