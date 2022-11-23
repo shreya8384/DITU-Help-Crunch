@@ -24,7 +24,7 @@ require('includes/function.php');
 <?php include_once('includes/navbar.php');?> 
 <div>
     <div class="container m-auto mt-3 row">
-        <div class="col-8">
+        <div class="col-2">
           <?php
           $post_id=$_GET['id'];
            $postQuery="SELECT * FROM posts WHERE id=$post_id"; 
