@@ -33,10 +33,7 @@ async function loginUser(req, res) {
         process.env["JWT_SECRET_KEY"],
         { expiresIn: 24 * 3 * 60 * 60 }
       );
-      res.status(200).send({
-        Message: "Login success",
-        accessToken,
-      });
+      res.status(200).redirect("http://localhost/DITU-HELP-CRUNCH/")
     } else {
       res.status(404).send({
         Message: "Wrong Credentials",
@@ -56,9 +53,7 @@ async function signupUser(req, res) {
   password = cryptoJs.AES.encrypt(password, process.env["PASS_KEY"]).toString();
   try {
     await mongo.users.saveUser(username, password, email);
-    res.status(200).send({
-      Message: "SignUp success",
-    });
+    res.status(200).redirect("/login")
   } catch (e) {
     throw new Error(e, routeName);
   }
